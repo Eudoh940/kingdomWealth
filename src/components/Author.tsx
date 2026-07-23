@@ -4,7 +4,7 @@
  */
 
 import { motion } from 'motion/react';
-import authorImg from '../assets/images/author_emmanuel_udoh_1784798365624.jpg';
+import authorImg from '../assets/images/change1.jpg';
 
 export default function Author() {
   return (
