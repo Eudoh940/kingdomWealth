@@ -1,0 +1,6 @@
+{
+  "name": "Kingdom Wealth Landing Page",
+  "description": "A premium landing page for 'Kingdom Wealth: Financial Freedom From a Biblical Perspective' by Emmanuel Udoh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
