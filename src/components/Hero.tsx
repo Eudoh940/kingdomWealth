@@ -5,7 +5,7 @@
 
 import { motion } from 'motion/react';
 import { CheckCircle2, Star } from 'lucide-react';
-import bookMockup from '../assets/images/kingdom_wealth_book_mockup_1784798351360.jpg';
+import bookMockup from '../assets/images/3D hard back.png';
 
 export default function Hero() {
   return (
