@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { ShoppingCart, ShieldCheck, Mail } from 'lucide-react';
+import bookMockup from '../assets/images/kingdom_wealth_book_mockup_1784798351360.jpg';
 
 export default function CTASection() {
   return (
@@ -60,7 +61,7 @@ export default function CTASection() {
               >
                 <div className="absolute inset-0 bg-brand-gold opacity-20 blur-3xl rounded-full"></div>
                 <img 
-                  src="input_file_1.png" 
+                  src={bookMockup} 
                   alt="Kingdom Wealth Book" 
                   className="w-full max-w-[300px] drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)] relative z-10"
                 />

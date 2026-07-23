@@ -4,6 +4,7 @@
  */
 
 import { motion } from 'motion/react';
+import authorImg from '../assets/images/author_emmanuel_udoh_1784798365624.jpg';
 
 export default function Author() {
   return (
@@ -12,9 +13,9 @@ export default function Author() {
         <div className="bg-white rounded-[40px] overflow-hidden shadow-2xl flex flex-col lg:flex-row border border-slate-100">
           <div className="lg:w-1/2 relative min-h-[400px]">
             <img
-              src="/src/assets/images/author_emmanuel_udoh_1784798365624.jpg"
+              src={authorImg}
               alt="Emmanuel Udoh"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover object-top"
               referrerPolicy="no-referrer"
             />
           </div>

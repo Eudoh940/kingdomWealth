@@ -5,6 +5,7 @@
 
 import { motion } from 'motion/react';
 import { CheckCircle2, Star } from 'lucide-react';
+import bookMockup from '../assets/images/kingdom_wealth_book_mockup_1784798351360.jpg';
 
 export default function Hero() {
   return (
@@ -77,7 +78,7 @@ export default function Hero() {
             className="relative z-10"
           >
             <img
-              src="input_file_1.png"
+              src={bookMockup}
               alt="Kingdom Wealth Book Mockup"
               className="w-full max-w-[520px] drop-shadow-[0_40px_60px_rgba(0,0,0,0.35)] rounded-xl transform hover:scale-[1.02] transition-transform duration-700"
               referrerPolicy="no-referrer"
